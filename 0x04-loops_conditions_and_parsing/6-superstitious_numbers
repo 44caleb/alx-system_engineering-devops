@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#prints words at certain point in iteration
+START=1
+END=20
+while (( START <= END ))
+do
+    case $START in
+	5)
+	echo "bad luck from China"
+	;;
+	10)
+	echo "bad luck from Japan"
+	;;
+	18)
+	echo "bad luck from Italy"
+	;;
+    esac
+    echo "$START"
+    ((START = START + 1))
+done
