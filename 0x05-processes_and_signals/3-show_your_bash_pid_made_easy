@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#displays pid and process name
+#does this foor processes with "bash" in name
+pgrep -l bash

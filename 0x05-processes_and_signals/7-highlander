@@ -1,0 +1,10 @@
+#!/uar/bin/env bash
+#displays to infinity and beyond indefinitely
+#sleeps between interation
+#prints statement on receiving SIGTERM signal
+trap 'echo "I am invincible!!!"' SIGTERM
+while ((1))
+do
+    echo "To infinity and beyond"
+    sleep 2
+done

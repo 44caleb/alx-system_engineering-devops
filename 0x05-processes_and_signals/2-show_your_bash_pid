@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#displays pid of programs containing "bash"
+# shellcheck disable=SC2009
+ps -axuf | grep 'bash'
