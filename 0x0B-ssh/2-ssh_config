@@ -1,0 +1,6 @@
+#an ssh client config file
+
+Host ubuntu
+  PasswordAuthentication no
+  PubkeyAuthentication yes
+  IdentityFile ~/.ssh/school
