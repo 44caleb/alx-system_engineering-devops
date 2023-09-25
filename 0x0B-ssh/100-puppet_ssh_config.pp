@@ -1,4 +1,4 @@
-
+# Client configuration file
 include stdlib
 file_line { 'NO password':
     ensure             => present,
