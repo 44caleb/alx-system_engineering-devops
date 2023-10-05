@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#server is now fixed and listens on port 80
+sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
+sudo pkill -o nginx
