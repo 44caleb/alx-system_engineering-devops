@@ -1,0 +1,6 @@
+sudo apt-get -y install ufw
+sudo ufw enable
+sudo ufw default deny incoming 
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw allow ssh
